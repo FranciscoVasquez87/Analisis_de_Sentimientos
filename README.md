@@ -18,7 +18,7 @@ Neutral (Neutral)
 
 🛠️ Metodología de Solución
 
-1. Análisis Exploratorio de Datos (EDA) y Limpieza (Actividad 1 - 20%)
+1. Análisis Exploratorio de Datos (EDA) y Limpieza 
 
 Completitud de Datos: Se identificaron y manejaron los valores faltantes en la columna de sentimiento para asegurar la calidad del target.
 
@@ -32,7 +32,7 @@ Tokenización y, si fue necesario, manejo de stopwords y lematización (ajustar 
 
 Visualización: Se generaron nubes de palabras y gráficos de distribución para entender el corpus y la proporción de cada sentimiento.
 
-2. Procesamiento y Entrenamiento del Modelo (Actividad 2 y 3 - 40%)
+2. Procesamiento y Entrenamiento del Modelo 
 
 Paso
 
@@ -74,7 +74,7 @@ Mejores Hiperparámetros (Grid Search):
 
 'n_estimators': 200
 
-3. Métricas de Rendimiento (Actividad 3 - 20%)
+3. Métricas de Rendimiento 
 
 Métrica
 
@@ -174,14 +174,14 @@ Prueba con Postman/API Test:
 
 Método: POST
 
-URL: http://127.0.0.1:5000/predict
+URL: https://flavory-adell-perinephral.ngrok-free.dev/predict
 
 Pestaña: Body -> raw -> JSON
 
 Cuerpo de la Prueba:
 
 {
-    "review": "Esta actualización es terrible, la aplicación ahora se bloquea constantemente."
+    "review": "The service is terrible and I regret buying this product."
 }
 
 
